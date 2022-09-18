@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FormulÃÂ¡rios</title>
+</head>
+<body>
+    <form action="">
+        <label for="nome">Nome:</label><br>
+        <input type="text" id="nome" name="nome" placeholder="Digite seu nome ..."><br><br>
+        <label for="sobrenome">Sobrenome:</label><br>
+        <input type="text" id="sobrenome" name="sobrenome" placeholder="Digite seu sobrenome ..."><br><br>
+        <label for="fone">Telefone:</label><br>
+        <input type="tel" id="fone" name="fone" placeholder="(xx)xxxx-xxxx"><br><br>
+        <label for="senha">Senha:</label><br>
+        <input type="password" id="senha" name="senha" placeholder="Digite sua senha ..."><br><br>
+        <label for="">OpÃÂ§ÃÂµes</label>
+        <input type="radio" name="opcao">A
+        <input type="radio" name="opcao">B
+        <input type="radio" name="opcao">C
+        <br> <br>
+        <label for="">Check</label>
+        <input type="checkbox" name="checkbox">1
+        <input type="checkbox" name="checkbox">2
+        <input type="checkbox" name="checkbox">3
+        <br><br>
+        <label for="">Area de texto</label><br>
+        <textarea name="textearea" id="" cols="30" rows="5"></textarea>
+        <br><br>
+        <label for="">Arquivo</label><br>
+        <input type="file" name="arquivo">
+        <br><br>
+        <label for="">Time do CoraÃÂ§ÃÂ£o</label>
+        <select name="times" id="">
+            <option value="">selecione</option>
+            <optgroup label="SÃÂ£o paulo">
+                <option value="Palmeiras">Palmeiras</option>
+                <option value="Santos">santos</option>
+                <option value="Bragantino">Bragantino</option>
+                <option value="Portuguesa">Portuguesa</option>
+                <option value="Juventos">Juventos</option>
+                <option value="Inter de limeira">Inter de limeira</option>
+            </optgroup>
+            <optgroup label="ParanÃÂ¡">
+                <option value="ParanÃÂ¡">ParanÃÂ¡</option>
+                <option value="Azuriz">Azuriz</option>
+                <option value="OperÃ¡rio">OperÃ¡rio</option>
+                <option value="Cascavel">Cascavel</option>
+                <option value="Londrina">Londrina</option>
+                <option value="Rio Branco">Rio Branco</option>
+            </optgroup>
+        </select><br><br>
+        <button type="submit">Enviar</button>
+        <button type="reset">LImpar</button>
+        <button disabled="disabled">Desabilitado</button>
+        <input type="submit" value="Enviar">
+        <br><br>
+        <label for="">Input range</label><br>
+        <input type="range"><br><br>
+        <p>exemplo datalist</p>
+        <label for="">Time</label>
+        <input type="text" placeholder="Insira seu time" name="time" list="lista_times">
+         <datalist id="lista_times">  <!--datalist sugere algo, mas vc pode digitar outro -->
+            <option value="Palmeiras"></option>
+            <option value="ParanÃÂ¡"></option>
+            <option value="Londrina"></option>
+        </datalist><br><br>
+        <input type="color"><br><br>
+        <input type="email"><br><br>
+        <input type="date"><br><br>
+        <input type="search"><br><br>
+        <input type="color"><br><br>
+
+
+    </form>
+</body>
+</html>

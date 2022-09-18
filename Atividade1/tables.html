@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    
+</head>
+<body>
+    <h1>Tabelas</h1>
+    <h2>Implícita</h2>
+    <table cellpadding="10"  cellspacing="10" border="1" width="100%">
+        <thead>
+            <tr align="center" bgcolor="yellow">
+                <td width="10%">#ID</td>
+                <td width="70%" colspan="2" >Projeto</td>
+                <!-- <td width="40%">Título</td> tirando e usando colspan, junta o width das duas  -->
+                <td width="10%">Status</td>
+                <td width="10%">Comentários</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr align="center">
+                <td>10</td>
+                <td>Projeto Teste</td>
+                <td>Teste de tabela</td>
+                <td>Processando</td>
+                <td>0</td>
+            </tr>
+            <tr align="center">
+                <td>10</td>
+                <td>Projeto Teste</td>
+                <td>Teste de tabela</td>
+                <td>Processando</td>
+                <td>0</td>
+            </tr>
+            <tr align="center">
+                <td>10</td>
+                <td>Projeto Teste</td>
+                <td>Teste de tabela</td>
+                <td>Processando</td>
+                <td>0</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Explícita</h2>
+    <table cellpadding="10" cellspacing="10" border="1" width="100%">
+        <tr align="center" bgcolor="green">
+            <td>#ID</td>
+            <td>Projeto</td>
+            <td>Título</td>
+            <td>Status</td>
+            <td>Comentários</td>
+        </tr>
+        <tr align="center">
+            <td>10</td>
+            <td>Projeto Teste</td>
+            <td>Teste de tabela</td>
+            <td>Processando</td>
+            <td>0</td>
+        </tr>
+    </table>
+</body>
+</html>
