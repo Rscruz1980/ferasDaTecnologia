@@ -15,13 +15,22 @@
     background-color:#d0050b;
     position: relative;
     height: 100px;
-
-
+}
+.login_user {
+    position: relative;
+   padding-left: 45px;
+}
+.img_user {
+    position: absolute;
+    left: 10px;
 }
 .conteudo {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 100px;
+}
+.divs_login {
+    display: flex;
+    justify-content: space-between;
 }

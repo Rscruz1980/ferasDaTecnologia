@@ -9,31 +9,62 @@
 </head>
 <body>
     <header>
-        <div class="logo"><img  src="imagens/6f85c282-lojas-americanas.webp" alt="logo americanas" class="logoAmericanas"></div>
+        <div class="logo"><img  src="imagens/logo_americanas.png" alt="logo americanas" class="logoAmericanas"></div>
+        
     </header>
     <section class="conteudo">
       
         <h1>criar seu cadastro</h1>
-        <h5>veja seus pedidos de forma fácil, compre mais rápido e tenha uma experiência personalizada :)</h5>
-        <p> * Campo obrigatórios</p>
-        <form action="" method="POST">
+        <h5>veja seus pedidos de forma facil, compre mais rapido e tenha uma experiencia personalizada :)</h5>
+        <p> * Campo obrigatorios</p>
+        <form class="formulario" action="" method="POST">
             <label for="nome"> *nome completo</label><br>
             <input type="text" name="nome" id="nome"><br><br>
-            <label for="nome"> *gênero</label><br>
+
+            <label for="nome"> *genero</label><br>
             <p>pra gente te conhecer um pouco melhor</p>
             <input type="radio" name="opcao" id="opcao">feminino
             <input type="radio" name="opcao" id="opcao">masculino
-            <input type="radio" name="opcao" id="opcao">não informar
+            <input type="radio" name="opcao" id="opcao">nÃ£o informar
             <br><br>
+
             <label for="dataNasc"> *data de nascimento</label><br>
-            <p>necessário pra gente identificar a maioridade, no formato DD/MM/AAAA</p>
+            <p>necessario pra gente identificar a maioridade, no formato DD/MM/AAAA</p>
             <input type="date" name="dataNasc" id="dataNasc"><br><br>
+
             <label for="cpf"> *CPF</label><br>
-            <p>necessário para emissão das notas fiscais</p>
+            <p>necessario para emissao das notas fiscais</p>
             <input  type="tel" name="cpf" id="cpf"><br><br>
+            <p><a href="#">e pessoa juridica? conheca o americanas empresas</a></p><br><br>
+
             <label for="fone"> *telefone</label><br>
             <p>caso a gente precise entrar em contato sobre seus pedidos</p>
-            <input type="tel" name="cpf" id="cpf"><br><br>
+            <input type="tel" name="fone" id="fone"><br><br>
+            <input type="checkbox" name="check" id="check">
+            <label for="check"> receber notificacoes por whatsapp</label><br><br>
+
+            <label for="email"> *Email</label><br>
+            <input type="email" name="email" id="email"><br><br>
+            <input type="checkbox" name="check_email" id="check_email">
+            <label for="check_email"> receber e-mails promocionais</label><br><br>
+
+            <label for="senha"> *Senha</label><br>
+            <p>precisa ter entre 6 e 20 caracteres</p><br>
+            <input type="password" name="senha" id="senha"><br><br>
+           <input type="range"><br><br>
+
+           <input type="checkbox" name="check_compartilhar" id="check_compartilhar">
+           <label for="check_compartilhar">compartilhar meus dados para ter <br> conteudos personalizados, veja <a href="#">como funciona</a></label>
+           <br><br>
+
+           <button type="submit">Criar seu Cadastro</button><br><br>
+
+           <p>Nao se preocupe, nosso site e seguro! Ao criar o seu <br>
+            cadastro, voce concorda com a nossa <a href="politica_privacidade.html">Politica de <br> privacidade</a></p><br><br>
+
+            <p>Ja tem cadastro ? <a href="login.html">entrar</a></p>
+
+
 
 
         </form>
